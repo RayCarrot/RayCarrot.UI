@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RayCarrot.UI", "RayCarrot.UI\RayCarrot.UI.csproj", "{6EF1F558-E7B4-445D-9AA4-2A0B52A39C56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{6117D299-C3CD-4F66-8336-253B8A2D97BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RayCarrot.Logging", "..\RayCarrot.Logging\RayCarrot.Logging\RayCarrot.Logging.csproj", "{AEC87DB4-80C4-4C45-9823-D2090E473E17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EF1F558-E7B4-445D-9AA4-2A0B52A39C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF1F558-E7B4-445D-9AA4-2A0B52A39C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF1F558-E7B4-445D-9AA4-2A0B52A39C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF1F558-E7B4-445D-9AA4-2A0B52A39C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC87DB4-80C4-4C45-9823-D2090E473E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC87DB4-80C4-4C45-9823-D2090E473E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC87DB4-80C4-4C45-9823-D2090E473E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC87DB4-80C4-4C45-9823-D2090E473E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEC87DB4-80C4-4C45-9823-D2090E473E17} = {6117D299-C3CD-4F66-8336-253B8A2D97BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47CBAB34-1ABD-4F1C-9330-17F68CCC77C7}
+	EndGlobalSection
+EndGlobal
