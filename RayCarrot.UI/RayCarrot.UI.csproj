@@ -8,8 +8,4 @@
     <DocumentationFile>bin\Release\netstandard2.0\RayCarrot.UI.xml</DocumentationFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\RayCarrot.Logging\RayCarrot.Logging\RayCarrot.Logging.csproj" />
-  </ItemGroup>
-
 </Project>

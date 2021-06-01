@@ -1,5 +1,4 @@
 ﻿using System;
-using RayCarrot.Logging;
 
 namespace RayCarrot.UI
 {
@@ -68,10 +67,7 @@ namespace RayCarrot.UI
         public override void Execute(object parameter = null)
         {
             if (!CanExecuteCommand)
-            {
-                RL.Logger?.LogWarningSource($"A command tried executing with {nameof(CanExecuteCommand)} set to false");
                 return;
-            }
 
             // Run the command
             CommandAction(parameter);

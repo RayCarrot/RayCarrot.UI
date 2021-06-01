@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using RayCarrot.Logging;
 
 namespace RayCarrot.UI
 {
@@ -77,10 +76,7 @@ namespace RayCarrot.UI
         {
             // Do not run if the command can not execute
             if (!CanExecuteCommand)
-            {
-                RL.Logger?.LogWarningSource($"A command tried executing with {nameof(CanExecuteCommand)} set to false");
                 return;
-            }
 
             // The command can not execute while running
             CanExecuteCommand = false;
